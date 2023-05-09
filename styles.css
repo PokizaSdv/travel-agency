@@ -46,6 +46,10 @@ h1 {
     line-height: 66px;
 }
 
+.navigation-home {
+    color: orange;
+}
+
 .navigation__links {
     display: flex;
     align-items: center;
