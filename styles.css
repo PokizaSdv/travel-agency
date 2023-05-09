@@ -19,11 +19,13 @@ a {
 /* Header */
 
 .header {
-    height: 100px;
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .logo {
-    height: 80px;
+    height: 100px;
     padding-right: 10px;
 }
 h1 {
@@ -41,18 +43,20 @@ h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 80px;
     padding-top: 20px;
 }
 
 .navigation__links {
     display: flex;
     align-items: center;
-    padding-left: 200px;
+    padding-left: 240px;
     gap: 60px;
+}
+
+.navigation__links li a {
     font-size: 18px;
+    color: #023e8a;
     cursor: pointer;
-    color: #0077b6;
 }
 
 /* Hero Section */
@@ -64,14 +68,14 @@ h1 {
 .hero-section_img {
     width: 100%;
     height: auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .hero-section_container h2 {
-    padding-left: 120px;
+    padding-left: 130px;
     font-size: 30px;
     color: #023e8a;
 }
@@ -79,14 +83,24 @@ h1 {
 .hero-section_video {
     width: 100%;
     height: auto;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 20px;
-    padding-bottom: 50px;
+}
+
+.hero-section_container p {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #03045e;
 }
 
 .top-destinations {
     max-width: 1440px;
+    padding-top: 50px;
 }
 
 .top-destinations h2 {
@@ -99,7 +113,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 30px;
     font-size: 16px;
     line-height: 1.6;
@@ -113,7 +127,7 @@ h1 {
 .top-destinations_links_right {
     width: 20%;
     height: max-content;
-    padding-right: 100px;
+    padding-right: 80px;
     padding-left: 20px;
 }
 
